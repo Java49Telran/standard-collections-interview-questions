@@ -74,6 +74,7 @@ class StackIntTest {
 	}
 	void predefinedMaxTest() {
 		int ar[]= {100000,50000,100000,20,20,20,2000000};
+		StackInt stack = new StackInt();
 		for (int i = 0; i < ar.length; i++) {
 			stack.push(ar[i]);
 		}
